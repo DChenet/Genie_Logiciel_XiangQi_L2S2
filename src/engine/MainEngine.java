@@ -59,7 +59,6 @@ public class MainEngine {
 			Match.getInstance().getWaitingplayer().setIschecked(true);
 		}
 
-		System.out.println(Match.getInstance().getPlayer2().getWinconditionpiece().getWincondition());
 		// We generate the possible moves of the enemy player's piece which
 		// holds the winning condition.
 		mvalidator.generatePieceMovements(Match.getInstance().getWaitingplayer().getWinconditionpiece());

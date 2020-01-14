@@ -27,7 +27,7 @@ public class InOutParameters {
 	/**
 	 * Link to the folder containing the {@link Ground} texture images.
 	 */
-	public static final String TEXTURES_REPOSITORY_PATH = "src/textures";
+	public static final String TEXTURES_REPOSITORY_PATH = "src/textures/menu";
 
 	/**
 	 * Link to the text file containing the {@link Ground} informations compiled
@@ -50,5 +50,5 @@ public class InOutParameters {
 	public static final String BOARD_MONTAIN_SETTING_PATH = "src/test/io/boardmontainsetting.txt";
 
 	// Link to the logo image of the game.
-	public static final String LOGO_ICON_PATH = "image/logo.png";
+	public static final String LOGO_ICON_PATH = "src/textures/pieces/logo.png";
 }

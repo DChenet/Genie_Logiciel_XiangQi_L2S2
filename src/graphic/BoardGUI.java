@@ -76,7 +76,7 @@ public class BoardGUI extends JFrame {
 		Image logoicon;
 		
 		try {
-			logoicon = ImageIO.read(new File("textures_menu/logo.png"));
+			logoicon = ImageIO.read(new File("src/textures/menu/logo.png"));
 			this.setIconImage(logoicon);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

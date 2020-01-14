@@ -94,7 +94,7 @@ public class GraphicsMainMenu extends JFrame {
 		Image logoicon;
 		
 		try {
-			logoicon = ImageIO.read(new File("textures_menu/logo.png"));
+			logoicon = ImageIO.read(new File("src/textures/menu/logo.png"));
 			this.setIconImage(logoicon);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -119,35 +119,35 @@ public class GraphicsMainMenu extends JFrame {
 		// Plain Button
 
 		plain.setBounds(700, 150, 150, 70);
-		plain.setIcon(new ImageIcon("textures_menu/bouton_plaine.png"));
+		plain.setIcon(new ImageIcon("src/textures/menu/bouton_plaine.png"));
 		plain.addActionListener(new SetSelectedBoardAction("Plaine"));
 		mainpanel.add(plain);
 
 		// Ice Button
 
 		ice.setBounds(700, 240, 150, 70);
-		ice.setIcon(new ImageIcon("textures_menu/bouton_glacier.png"));
+		ice.setIcon(new ImageIcon("src/textures/menu/bouton_glacier.png"));
 		ice.addActionListener(new SetSelectedBoardAction("Glacier"));
 		mainpanel.add(ice);
 
 		// Sand Button
 
 		sand.setBounds(700, 330, 150, 70);
-		sand.setIcon(new ImageIcon("textures_menu/bouton_sand.png"));
+		sand.setIcon(new ImageIcon("src/textures/menu/bouton_sand.png"));
 		sand.addActionListener(new SetSelectedBoardAction("Désert"));
 		mainpanel.add(sand);
 
 		// Mountain Button
 
 		mountain.setBounds(700, 420, 150, 70);
-		mountain.setIcon(new ImageIcon("textures_menu/bouton_montagne.png"));
+		mountain.setIcon(new ImageIcon("src/textures/menu/bouton_montagne.png"));
 		mountain.addActionListener(new SetSelectedBoardAction("Montagne"));
 		mainpanel.add(mountain);
 
 		// Play button
 
 		playbutton.setBounds(375, 200, 150, 150);
-		playbutton.setIcon(new ImageIcon("textures_menu/logo.png"));
+		playbutton.setIcon(new ImageIcon("src/textures/menu/logo.png"));
 		playbutton.addActionListener(new LancerJeu());
 		mainpanel.add(playbutton);
 

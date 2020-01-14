@@ -1,27 +1,27 @@
 [BLACKPLAIN]
-texturefile=image/plain.jpg
+texturefile=src/textures/environment/plain.jpg
 /
 
 [REDPLAIN]
-texturefile=image/plain.jpg
+texturefile=src/textures/environment/plain.jpg
 /
 
 [SAND]
-texturefile=src/textures/sand.jpg
+texturefile=src/textures/environment/sand.jpg
 /
 
 [ICE]
-texturefile=src/textures/ice.jpg
+texturefile=src/textures/environment/ice.jpg
 /
 
 [MONTAIN]
-texturefile=src/textures/montain.png
+texturefile=src/textures/environment/montain.png
 /
 
 [REDPALAIS]
-texturefile=src/textures/palais.jpg
+texturefile=src/textures/environment/palais.jpg
 /
 
 [BLACKPALAIS]
-texturefile=src/textures/palais.jpg
+texturefile=src/textures/environment/palais.jpg
 /

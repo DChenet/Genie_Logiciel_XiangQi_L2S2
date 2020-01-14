@@ -3,8 +3,6 @@ package board.components;
 import java.io.File;
 import java.util.ArrayList;
 
-import javax.lang.model.util.SimpleAnnotationValueVisitor6;
-
 import board.BoardParameters;
 import compiler.lang.DefaultSettings;
 import compiler.lang.Grammar;

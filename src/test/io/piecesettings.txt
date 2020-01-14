@@ -1,6 +1,6 @@
 (SOLDIER)
-RED_texture=image/soldat_rouge.png
-BLACK_texture=image/soldat_noir.png
+RED_texture=src/textures/pieces/soldat_rouge.png
+BLACK_texture=src/textures/pieces/soldat_noir.png
 weight=1
 [DEFAULT]
 std:polar:1,0
@@ -27,8 +27,8 @@ RED:std:0,-1
 /
 
 (ADVISOR)
-RED_texture=image/garde_rouge.png
-BLACK_texture=image/garde_noir.png
+RED_texture=src/textures/pieces/garde_rouge.png
+BLACK_texture=src/textures/pieces/garde_noir.png
 weight=2
 [DEFAULT]
 {final_position;[REDPALAIS];[BLACKPALAIS]}
@@ -39,8 +39,8 @@ std:-1,-1
 /
 
 (ELEPHANT)
-RED_texture=image/elephant_rouge.png
-BLACK_texture=image/elephant_noir.png
+RED_texture=src/textures/pieces/elephant_rouge.png
+BLACK_texture=src/textures/pieces/elephant_noir.png
 weight=3
 [DEFAULT]
 std:inf:1,1
@@ -50,8 +50,8 @@ std:inf:-1,-1
 /
 
 (CANNON)
-RED_texture=image/canon_rouge.png
-BLACK_texture=image/canon_noir.png
+RED_texture=src/textures/pieces/canon_rouge.png
+BLACK_texture=src/textures/pieces/canon_noir.png
 weight=4
 [DEFAULT]
 {jump;1;EAT_ONLY_ON_LAST}
@@ -111,8 +111,8 @@ std:0,-12
 /
 
 (CHARIOT)
-RED_texture=image/chariot_rouge.png
-BLACK_texture=image/chariot_noir.png
+RED_texture=src/textures/pieces/chariot_rouge.png
+BLACK_texture=src/textures/pieces/chariot_noir.png
 weight=5
 [DEFAULT]
 std:inf:1,0
@@ -128,8 +128,8 @@ std:0,-1
 
 (GENERAL)
 WINNINGCONDITION
-RED_texture=image/roi_rouge.png
-BLACK_texture=image/roi_noir.png
+RED_texture=src/textures/pieces/roi_rouge.png
+BLACK_texture=src/textures/pieces/roi_noir.png
 weight=7
 [DEFAULT]
 {cannot_encounter;(GENERAL);polar:inf:1,0}
@@ -141,8 +141,8 @@ std:0,-1
 /
 
 (HORSE)
-RED_texture=image/cheval_rouge.png
-BLACK_texture=image/cheval_noir.png
+RED_texture=src/textures/pieces/cheval_rouge.png
+BLACK_texture=src/textures/pieces/cheval_noir.png
 weight=6
 [DEFAULT]
 std:1,1>1,0
