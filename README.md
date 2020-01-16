@@ -8,6 +8,6 @@ Ce projet a été développé dans le cadre du module "Génie Logiciel et Progra
 * Joueur contre Ordinateur
 * Plateaux de jeu, pièces et textures reprogrammables par l'utilisateur
 
-Pour les précisions techniques, le rapport est consultable (Rapport_GLP.pdf) ainsi que le cahier des charges (spécifications).
+Pour les précisions techniques, le rapport est consultable (Rapport_GLP.pdf) ainsi que le cahier des charges (Spécifications.pdf).
 
 ![Ecran du jeu](screenshots/boardgui1.png)
